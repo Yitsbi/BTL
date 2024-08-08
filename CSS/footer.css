@@ -63,9 +63,10 @@ p {
 
 .location {
   display: flex;
+  color: blue;
 }
 
-.location:hover a {
+.location:hover {
   color: var(--blood);
 }
 
