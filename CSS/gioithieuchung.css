@@ -1,0 +1,124 @@
+.openings {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #00618a;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+.opening {
+  width: 50%;
+  color: white;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.opening:first-child {
+  border-right: 1px solid white;
+}
+
+.opening-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(106, 130, 171);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s linear;
+  cursor: pointer;
+}
+
+.opening-icon:hover {
+  transform: rotate(20deg);
+}
+
+/* BOX1 */
+
+/* BOX2 */
+.missions {
+  width: 80%;
+  margin: 5px auto;
+  padding: 2.5em;
+  background-color: #00618a;
+  color: white !important;
+  border-radius: 15px;
+}
+
+.missions h3 {
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.mission {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #00618a;
+  top: 15px;
+  right: 15px;
+}
+/* BOX2 */
+
+/* BOX3 */
+
+.box3 h3 {
+  color: white;
+}
+
+.box3 h1 {
+  font-weight: bolder;
+  font-size: 32px;
+  text-align: center;
+}
+
+.item-container {
+  display: flex;
+  width: 80%;
+  margin: 5px auto;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+}
+
+.item-container > div {
+  width: 20%;
+  padding: 10px;
+  transition: 0.25s ease-in;
+}
+
+.item-container > div:hover {
+  width: 40%;
+}
+
+.item-container .item-1 {
+  background-color: #00799f;
+}
+.item-container .item-2 {
+  background-color: #006189;
+}
+.item-container .item-3 {
+  background-color: #00557a;
+}
+.item-container .item-4 {
+  background-color: #004664;
+}
+/* BOX3 */

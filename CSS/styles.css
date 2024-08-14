@@ -49,7 +49,8 @@ body .main-container {
   text-align: justify;
 }
 
-p {
+p,
+h5 {
   margin: 0.3em 0 0 0;
 }
 
