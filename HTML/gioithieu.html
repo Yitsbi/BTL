@@ -69,7 +69,7 @@
             </ul>
           </li>
           <li class="sub"><a href="#">ĐĂNG KÍ TƯ VẤN</a></li>
-          <li class="sub"><a href="#">LIÊN HỆ</a></li>
+          <li class="sub contact"><a href="#">LIÊN HỆ</a></li>
         </ul>
       </nav>
       <aside class="ads">
@@ -89,8 +89,8 @@
 
       <section>
         <div class="container article justify">
-          <h3>Tổng quan về OU</h3>
-          <h4>GIỚI THIỆU CHUNG</h4>
+          <h1 style="color: #00618a">Tổng quan về OU</h1>
+          <h3>GIỚI THIỆU CHUNG</h3>
           <p>
             Được thành lập vào năm 1990 và trở thành trường đại học công lập từ
             năm 2006, đến nay Trường Đại học Mở Thành phố Hồ Chí Minh là trường
@@ -143,7 +143,10 @@
               SỨ MẠNG VÀ TẦM NHÌN CỦA TRƯỜNG ĐẠI HỌC MỞ THÀNH PHỐ HỒ CHÍ MINH
             </h2>
             <div class="mission flex">
-              <div class="mission-img"></div>
+              <div class="mission-space"></div>
+              <div class="mission-decoration">
+                <img src="../image/ou.png" class="img-responsive" />
+              </div>
               <div class="mission-text">
                 <h3>Sứ mạng:</h3>
                 <p>
@@ -157,7 +160,10 @@
               <div class="dot"></div>
             </div>
             <div class="mission flex">
-              <div class="mission-img"></div>
+              <div class="mission-space"></div>
+              <div class="mission-decoration">
+                <img src="../image/ou.png" class="img-responsive" />
+              </div>
               <div class="mission-text">
                 <h3>Tầm nhìn:</h3>
                 <p>
@@ -215,6 +221,40 @@
           </div>
 
           <!-- BOX3 -->
+          <!-- TEXT -->
+          <div>
+            <h3 style="color: blue">> Mở rộng tri thức</h3>
+            <p>
+              Nhà trường nỗ lực phát triển các phương thức đào tạo đa dạng và
+              linh hoạt về không gian và thời gian, phù hợp với người học có nền
+              tảng kiến thức và điều kiện học tập khác nhau. Nhà trường khuyến
+              khích sự tìm kiếm và đóng góp tri thức mới cho cộng đồng. Nhà
+              trường luôn tiếp cận và ứng dụng tri thức mới trên thế giới, hướng
+              đến hội nhập quốc tế.
+            </p>
+            <h3 style="color: green">> Gắn kết thực tiễn</h3>
+            <p>
+              Nhà trường thúc đẩy việc giảng dạy và nghiên cứu đáp ứng các yêu
+              cầu phát sinh từ thực tế.
+            </p>
+            <h3 style="color: purple">> Phục vụ cộng đồng</h3>
+            <p>
+              Nhà trường hướng đến phục vụ lợi ích cộng đồng trong đào tạo,
+              nghiên cứu và các hoạt động khác của Nhà trường.
+            </p>
+            <h3 style="color: orangered">
+              > Chuyên nghiệp, hiệu quả, sáng tạo và thân thiện
+            </h3>
+            <p>
+              Nhà trường cam kết phát triển đội ngũ chuyên nghiệp với khả năng
+              thực hiện công việc đào tạo, nghiên cứu với hiệu quả cao nhất. Nhà
+              trường khuyến khích tư duy sáng tạo với tinh thần đổi mới cách
+              nghĩ, cách làm, biến thách thức thành cơ hội. Nhà trường tạo lập
+              và duy trì môi trường làm việc và học tập thân thiện với thái độ
+              hợp tác, tôn trọng lẫn nhau để cùng đạt mục tiêu.
+            </p>
+          </div>
+          <!-- TEXT -->
         </div>
       </section>
 
@@ -258,7 +298,9 @@
                 <a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a>
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+                <a href="#"
+                  ><i class="fa-solid fa-phone contact"></i> Liên hệ</a
+                >
               </li>
             </ul>
           </div>
@@ -288,5 +330,34 @@
     </footer>
 
     <!-- FOOTER -->
+
+    <!-- MODAL -->
+
+    <div class="modal" id="myModal">
+      <div class="modal-container animate__animated animate__fadeInDownBig">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>LIÊN HỆ</h2>
+        </div>
+        <div class="modal-body">
+          <form class="contact-form" id="contact-form">
+            <h5>Họ và tên</h5>
+            <input type="text" class="info" id="name" />
+            <h5>Email</h5>
+            <input type="text" class="info" id="email" />
+            <h5>Tiêu đề</h5>
+            <input type="text" class="info" id="title" />
+            <h5>Nội dung</h5>
+            <textarea rows="5" cols="80" class="info" id="content"></textarea>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="abort" id="abort">Hủy</button>
+          <button class="submit" id="submit">Gửi</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL -->
   </body>
 </html>
