@@ -185,7 +185,7 @@
   background-color: #00557a;
   padding: 20px;
   color: white;
-  transition: 0.25s ease-in linear;
+  transition: 0.25s linear;
 }
 .timeline ul li:nth-child(odd) {
   float: left;

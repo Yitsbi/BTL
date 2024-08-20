@@ -17,6 +17,7 @@
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -51,6 +52,12 @@ body .main-container {
 
 .show {
   display: block !important;
+}
+
+.visible {
+  position: static !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 p,
