@@ -232,6 +232,8 @@
   }
 }
 
+/* MEDIA */
+
 @media (max-width: 768px) {
   /* BOX 1 */
   .openings {
@@ -247,6 +249,9 @@
     width: 100%;
   }
   .box3 .item-container > div {
+    width: 100%;
+  }
+  .item-container > div:hover {
     width: 100%;
   }
   /*TIMELINE*/
@@ -276,5 +281,14 @@
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 558px) {
+  .timeline ul {
+    display: block;
+  }
+  .timeline ul li {
+    width: 100%;
   }
 }
